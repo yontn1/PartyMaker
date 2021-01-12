@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="drink_id_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/drink_id_view"
+        />
+
+    <TextView
+        android:text="drink_name_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/drink_name_view"
+        android:layout_below="@+id/drink_id_view"
+    />
+
+    <TextView
+        android:text="quantity_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/quantity_view"
+        android:layout_below="@+id/drink_name_view"
+    />
+
+</LinearLayout>
